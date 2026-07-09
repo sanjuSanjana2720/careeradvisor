@@ -1,0 +1,202 @@
+export const quizQuestions = [
+  {
+    id: 1,
+    category: 'interest',
+    question: 'Which of these activities excites you the most?',
+    options: [
+      { text: 'Reading literature, history or writing stories', streams: { arts: 3, commerce: 0, science: 0, vocational: 1 } },
+      { text: 'Solving math puzzles and conducting experiments', streams: { arts: 0, commerce: 1, science: 3, vocational: 0 } },
+      { text: 'Managing money, budgets, or running a small business', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Building or fixing things with your hands', streams: { arts: 0, commerce: 0, science: 1, vocational: 3 } },
+    ],
+  },
+  {
+    id: 2,
+    category: 'personality',
+    question: 'How would your friends describe you?',
+    options: [
+      { text: 'Creative and imaginative', streams: { arts: 3, commerce: 1, science: 0, vocational: 1 } },
+      { text: 'Analytical and detail-oriented', streams: { arts: 0, commerce: 1, science: 3, vocational: 1 } },
+      { text: 'Persuasive and a good negotiator', streams: { arts: 1, commerce: 3, science: 0, vocational: 0 } },
+      { text: 'Practical and hands-on', streams: { arts: 0, commerce: 0, science: 1, vocational: 3 } },
+    ],
+  },
+  {
+    id: 3,
+    category: 'academic',
+    question: 'Which subject do you perform best in?',
+    options: [
+      { text: 'Languages, Social Studies or History', streams: { arts: 3, commerce: 1, science: 0, vocational: 0 } },
+      { text: 'Mathematics and Physics', streams: { arts: 0, commerce: 1, science: 3, vocational: 1 } },
+      { text: 'Business Studies or Economics', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Computer Science or Workshop/Craft', streams: { arts: 0, commerce: 0, science: 2, vocational: 3 } },
+    ],
+  },
+  {
+    id: 4,
+    category: 'interest',
+    question: 'What kind of TV shows or YouTube channels attract you?',
+    options: [
+      { text: 'Documentaries, art, culture or travel vlogs', streams: { arts: 3, commerce: 0, science: 1, vocational: 0 } },
+      { text: 'Science experiments, space or technology channels', streams: { arts: 0, commerce: 0, science: 3, vocational: 1 } },
+      { text: 'Business news, stock market or entrepreneurship stories', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'DIY projects, cooking shows or skill tutorials', streams: { arts: 1, commerce: 0, science: 0, vocational: 3 } },
+    ],
+  },
+  {
+    id: 5,
+    category: 'personality',
+    question: 'When faced with a group project, what role do you naturally take?',
+    options: [
+      { text: 'The idea generator — coming up with creative concepts', streams: { arts: 3, commerce: 1, science: 1, vocational: 0 } },
+      { text: 'The researcher — digging deep into data and facts', streams: { arts: 1, commerce: 0, science: 3, vocational: 0 } },
+      { text: 'The leader — organizing people and delegating tasks', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'The builder — making the prototype or final product', streams: { arts: 0, commerce: 0, science: 1, vocational: 3 } },
+    ],
+  },
+  {
+    id: 6,
+    category: 'academic',
+    question: 'Which of these school projects would you enjoy most?',
+    options: [
+      { text: 'Writing an essay on Indian independence movement', streams: { arts: 3, commerce: 0, science: 0, vocational: 0 } },
+      { text: 'Building a working model of solar system', streams: { arts: 0, commerce: 0, science: 3, vocational: 1 } },
+      { text: 'Creating a business plan for a startup idea', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Designing and building a wooden shelf or gadget', streams: { arts: 1, commerce: 0, science: 0, vocational: 3 } },
+    ],
+  },
+  {
+    id: 7,
+    category: 'interest',
+    question: 'What career sounds most appealing to you?',
+    options: [
+      { text: 'Journalist, teacher, lawyer or civil servant', streams: { arts: 3, commerce: 1, science: 0, vocational: 0 } },
+      { text: 'Doctor, engineer, scientist or researcher', streams: { arts: 0, commerce: 0, science: 3, vocational: 0 } },
+      { text: 'Chartered Accountant, banker, or business owner', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Electrician, mechanic, chef, or graphic designer', streams: { arts: 1, commerce: 0, science: 0, vocational: 3 } },
+    ],
+  },
+  {
+    id: 8,
+    category: 'personality',
+    question: 'How do you prefer to learn new things?',
+    options: [
+      { text: 'By reading books and discussing ideas', streams: { arts: 3, commerce: 1, science: 1, vocational: 0 } },
+      { text: 'By experimenting and observing results', streams: { arts: 0, commerce: 0, science: 3, vocational: 1 } },
+      { text: 'By studying case studies and real-world examples', streams: { arts: 1, commerce: 3, science: 1, vocational: 0 } },
+      { text: 'By doing it yourself — learning by practice', streams: { arts: 0, commerce: 0, science: 0, vocational: 3 } },
+    ],
+  },
+  {
+    id: 9,
+    category: 'academic',
+    question: 'If you could attend one extra class for free, which would it be?',
+    options: [
+      { text: 'Political Science or Psychology', streams: { arts: 3, commerce: 0, science: 1, vocational: 0 } },
+      { text: 'Advanced Mathematics or Biology', streams: { arts: 0, commerce: 0, science: 3, vocational: 0 } },
+      { text: 'Accounting or Marketing', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Web Design or Automobile Repair', streams: { arts: 0, commerce: 0, science: 1, vocational: 3 } },
+    ],
+  },
+  {
+    id: 10,
+    category: 'interest',
+    question: 'Which book topic would you pick up at a library?',
+    options: [
+      { text: 'World history, philosophy or poetry', streams: { arts: 3, commerce: 0, science: 0, vocational: 0 } },
+      { text: 'Quantum physics, genetics or robotics', streams: { arts: 0, commerce: 0, science: 3, vocational: 1 } },
+      { text: 'Stock trading, economics or leadership', streams: { arts: 0, commerce: 3, science: 0, vocational: 0 } },
+      { text: 'Cooking recipes, craft ideas or fitness', streams: { arts: 1, commerce: 0, science: 0, vocational: 3 } },
+    ],
+  },
+  {
+    id: 11,
+    category: 'personality',
+    question: 'What motivates you the most?',
+    options: [
+      { text: 'Making a difference in society', streams: { arts: 3, commerce: 0, science: 1, vocational: 0 } },
+      { text: 'Discovering how things work', streams: { arts: 0, commerce: 0, science: 3, vocational: 1 } },
+      { text: 'Earning money and building wealth', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Creating something tangible and useful', streams: { arts: 1, commerce: 0, science: 0, vocational: 3 } },
+    ],
+  },
+  {
+    id: 12,
+    category: 'academic',
+    question: 'Which of these assignments would be easiest for you?',
+    options: [
+      { text: 'Writing a 1000-word debate on a social issue', streams: { arts: 3, commerce: 1, science: 0, vocational: 0 } },
+      { text: 'Solving a set of calculus problems', streams: { arts: 0, commerce: 0, science: 3, vocational: 0 } },
+      { text: 'Preparing a financial report for a company', streams: { arts: 0, commerce: 3, science: 0, vocational: 0 } },
+      { text: 'Wiring an electrical circuit or fixing a device', streams: { arts: 0, commerce: 0, science: 1, vocational: 3 } },
+    ],
+  },
+  {
+    id: 13,
+    category: 'interest',
+    question: 'If you could start a club at school, what would it be?',
+    options: [
+      { text: 'Debate or Literature Club', streams: { arts: 3, commerce: 1, science: 0, vocational: 0 } },
+      { text: 'Science or Robotics Club', streams: { arts: 0, commerce: 0, science: 3, vocational: 1 } },
+      { text: 'Entrepreneurship or Investment Club', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Photography, Art or Maker Club', streams: { arts: 2, commerce: 0, science: 0, vocational: 3 } },
+    ],
+  },
+  {
+    id: 14,
+    category: 'personality',
+    question: 'How do you handle challenges?',
+    options: [
+      { text: 'I talk to people and try to understand different perspectives', streams: { arts: 3, commerce: 1, science: 0, vocational: 0 } },
+      { text: 'I analyze the problem logically step-by-step', streams: { arts: 0, commerce: 1, science: 3, vocational: 0 } },
+      { text: 'I look for the most efficient and profitable solution', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'I try different approaches until something works', streams: { arts: 0, commerce: 0, science: 1, vocational: 3 } },
+    ],
+  },
+  {
+    id: 15,
+    category: 'academic',
+    question: 'What kind of competition would you want to participate in?',
+    options: [
+      { text: 'Quiz bowl, essay writing or Model United Nations', streams: { arts: 3, commerce: 1, science: 0, vocational: 0 } },
+      { text: 'Science Olympiad or Math championship', streams: { arts: 0, commerce: 0, science: 3, vocational: 0 } },
+      { text: 'Business plan competition or Stock market simulation', streams: { arts: 0, commerce: 3, science: 0, vocational: 1 } },
+      { text: 'Hackathon, design contest or skill championship', streams: { arts: 0, commerce: 0, science: 1, vocational: 3 } },
+    ],
+  },
+];
+
+export const streamDescriptions = {
+  arts: {
+    name: 'Arts / Humanities',
+    icon: '🎨',
+    color: '#a855f7',
+    description: 'You have a strong inclination towards creative thinking, social understanding, and verbal expression. Arts & Humanities open doors to impactful careers in governance, education, law, and media.',
+    degrees: ['B.A. (Bachelor of Arts)', 'B.A. Honours', 'B.Ed.', 'LLB (Law)', 'B.J.M.C. (Journalism)'],
+    careers: ['Civil Services (IAS/IPS)', 'Teaching & Education', 'Journalism & Media', 'Law & Judiciary', 'Social Work & NGOs', 'Content Writing', 'Public Relations'],
+  },
+  science: {
+    name: 'Science',
+    icon: '🔬',
+    color: '#3b82f6',
+    description: 'You are naturally curious, analytical, and love discovering how the world works. A Science stream can lead you to groundbreaking discoveries, healthcare, engineering, and technology careers.',
+    degrees: ['B.Sc. (Bachelor of Science)', 'B.Tech / B.E.', 'MBBS / BDS', 'B.Pharm', 'BCA'],
+    careers: ['Doctor / Medical Professional', 'Engineer', 'Research Scientist', 'IT Professional', 'Data Scientist', 'Pharmacist', 'Environmental Scientist'],
+  },
+  commerce: {
+    name: 'Commerce',
+    icon: '📊',
+    color: '#f59e0b',
+    description: 'You have a keen sense for business, numbers, and management. Commerce equips you for the corporate world, entrepreneurship, and financial management.',
+    degrees: ['B.Com. (Bachelor of Commerce)', 'BBA (Bachelor of Business Administration)', 'B.Com. Honours', 'CA Foundation', 'BMS'],
+    careers: ['Chartered Accountant', 'Investment Banker', 'Business Manager', 'Financial Analyst', 'Entrepreneur', 'Marketing Manager', 'Company Secretary'],
+  },
+  vocational: {
+    name: 'Vocational / Skill-Based',
+    icon: '🛠️',
+    color: '#10b981',
+    description: 'You are a doer — practical, resourceful, and enjoy creating things. Vocational training can fast-track you to employment with specialized, in-demand skills.',
+    degrees: ['ITI Courses', 'Polytechnic Diploma', 'B.Voc (Bachelor of Vocation)', 'Skill India Certifications', 'NSDC Programs'],
+    careers: ['Electrician / Plumber', 'Web Developer', 'Graphic Designer', 'Automobile Technician', 'Chef / Hospitality', 'Freelance Professional', 'Digital Marketing Specialist'],
+  },
+};
